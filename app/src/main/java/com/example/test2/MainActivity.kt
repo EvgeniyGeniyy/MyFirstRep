@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
                 else -> {
 
                     bindingClass.textView.visibility = View.VISIBLE
-                    bindingClass.textView.text ="Такой сотрудник не найден!"
+                    bindingClass.textView.text ="Такой сотрудник не найден!1"
 
                 }
 
