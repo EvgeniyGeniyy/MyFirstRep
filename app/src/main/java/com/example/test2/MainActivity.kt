@@ -14,15 +14,24 @@ class MainActivity : AppCompatActivity() {
         bindingClass = ActivityMainBinding.inflate(layoutInflater)
         setContentView(bindingClass.root)
 
-
     }
 
-    fun onClickGoTest1(view: View){
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if(requestCode == 100 && resultCode == RESULT_OK && data != null){
 
-        val intent = Intent(this, TestActivity1::class.java)
-        startActivity(intent)
+            bindingClass.textView2.text = data.getStringExtra("key2")
 
+        }
     }
+
+    fun onClickTest1(view: View){
+
+        val i = Intent(this, TestActivity1::class.java)
+        i.putExtra("key", "Как тебя зовут?")
+        startActivityForResult(i, 100)
+    }
+
 
 }
 

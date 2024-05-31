@@ -16,9 +16,6 @@
             android:name=".TestActivity1"
             android:exported="false" />
         <activity
-            android:name=".TestActivity2"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.Test2">
