@@ -2,16 +2,18 @@ package com.example.test2
 
 object Constance {
 
-    const val INGENER_SUM = 10000
-    const val DVORNIK_SUM = 1000
-    const val DIRECTOR_SUM = 100000
+    const val SING_IN_STATE = "sign_in"
+    const val SING_UP_STATE = "sign_up"
+    const val SING_STATE = "sign_state"
+    const val REQUEST_CODE_SIGN_IN = 1212
+    const val REQUEST_CODE_SIGN_UP = 2121
 
-    const val DIRECTOR = "Андрей"
-    const val INGENER = "Эдуард"
-    const val DVORNIK = "Егор"
+    const val LOGIN = "login"
+    const val PASSWORD = "password"
+    const val NAME = "name"
+    const val NAME2 = "name2"
+    const val NAME3 = "name3"
+    const val AVATAR_ID = "avatar_id"
 
-    const val DVORNIK_PASSWORD = "4455"
-    const val IGENER_PASSWORD = "2233"
-    const val DIIRECTOR_PASSWORD = "1234"
 
 }

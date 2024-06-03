@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Test2"
         tools:targetApi="31">
         <activity
-            android:name=".TestActivity1"
+            android:name=".SigninUPAct"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
